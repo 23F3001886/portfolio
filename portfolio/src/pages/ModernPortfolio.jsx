@@ -15,6 +15,7 @@ import {
 export default function ModernPortfolio() {
   const [scrollY, setScrollY] = useState(0);
   const [activeSection, setActiveSection] = useState("home");
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   
   useEffect(() => {
     const handleScroll = () => {
@@ -157,13 +158,38 @@ export default function ModernPortfolio() {
             ))}
           </div>
           <div className="md:hidden">
-            <button className="p-2 rounded-full bg-indigo-50 text-indigo-600">
+            <button 
+              className="p-2 rounded-full bg-indigo-50 text-indigo-600"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
               </svg>
             </button>
           </div>
         </div>
+
+        {/* Mobile Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden fixed inset-x-0 top-[70px] bg-white rounded-b-lg shadow-md z-50 animate-slideDown">
+            <div className="flex flex-col p-4 max-h-[80vh] overflow-y-auto">
+              {["home", "about", "achievements", "projects", "skills", "contact"].map((item) => (
+                <a 
+                  key={item}
+                  href={`#${item}`}
+                  className={`px-4 py-3 mb-1 rounded-lg text-sm font-medium transition-all ${
+                    activeSection === item 
+                      ? "bg-indigo-100 text-indigo-700" 
+                      : "text-gray-600 hover:text-indigo-600 hover:bg-indigo-50"
+                  }`}
+                  onClick={() => setMobileMenuOpen(false)} // Close menu on item click
+                >
+                  {item.charAt(0).toUpperCase() + item.slice(1)}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* Main Content */}
@@ -254,7 +280,7 @@ export default function ModernPortfolio() {
                       <div className="absolute w-full h-full rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 p-[3px]">
                         <div className="bg-white w-full h-full rounded-full overflow-hidden">
                           <img 
-                            src="https://res.cloudinary.com/dkhhwbixm/image/upload/v1747916901/WhatsApp_Image_2025-05-22_at_17.09.25_a9fa148f_dptvoj.jpg" 
+                            src="/src/assets/WhatsApp Image 2025-05-22 at 17.09.25_a9fa148f.jpg" 
                             alt="Nitesh Sharma" 
                             className="w-full h-full object-cover object-[40%_20%]"
                           />
