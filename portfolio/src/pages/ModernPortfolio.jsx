@@ -77,10 +77,10 @@ export default function ModernPortfolio() {
       title: "Crime Analysis and Reporting System",
       description: "A comprehensive crime analysis and reporting platform for citizens and administrators. Enables secure crime reporting, real-time data visualization, and ML-based severity assessment to help prioritize incident response and policy analysis.",
       image: "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
-      tags: ["React", "Flask", "PostgreSQL", "JWT", "ML/AI", "Google Maps API"],
+      tags: ["React", "Flask", "SQLlite3", "JWT", "ML/AI", "Google Maps API"],
       liveLink: "#",
-      demoLink: "#",
-      githubLink: "https://github.com/YOUR_USERNAME/Crime-Analysis-System",
+      demoLink: "https://drive.google.com/file/d/1kEYNX7QtNXkwxJTfn2MhOcI72zpwBrra/view?usp=sharing",
+      githubLink: "https://github.com/23F3001886/Crime-Analysis-System",
       icon: "🛡️",
       features: [
         "Crime reporting with geolocation",
