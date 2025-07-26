@@ -91,6 +91,26 @@ export default function ModernPortfolio() {
       ]
     },
     {
+    title: "Smart Campus Portal",
+    description:
+      "A role-based full-stack web platform that streamlines campus operations including placement tracking, course materials, student profiling, notices, assignments, and attendance. Features dedicated dashboards for Admin, Teacher, and Student roles.",
+    image:
+      "https://images.unsplash.com/photo-1558625628-8b7292e0c335?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["React", "Node.js", "Express", "MongoDB", "JWT", "Bootstrap 5"],
+    liveLink: "https://your-demo-link.com", // Replace with actual link
+    demoLink: "https://drive.google.com/file/d/1B82alKFIW3jAoTD3VXMFqnURtw6_2Q0s/view?usp=drivesdk", // Replace with actual link
+    githubLink: "https://github.com/NITESHBHARDWAJ001/smart-campus-portal",
+    icon: "🎓",
+    features: [
+      "Role-based dashboards for Admin, Teacher, and Student",
+      "Placement opportunity creation and tracking",
+      "Course creation with materials and assignments",
+      "Attendance management by teachers",
+      "Student profile visibility for placement",
+      "Admin overview with full statistics and controls"
+    ]
+  },
+    {
       title: "Quiz Master – Full-Stack Quiz Platform",
       description: "A comprehensive full-stack quiz platform designed for educational institutions. It enables admin to manage subjects, chapters, quizzes, and users. Students can take quizzes, track their results, and download performance reports.",
       image: "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
@@ -117,7 +137,7 @@ export default function ModernPortfolio() {
       tags: ["React.js", "Tailwind CSS", "Flask", "SQLAlchemy", "JWT"],
       liveLink: "#",
       demoLink: "#",
-      githubLink: "https://github.com/YourGitHubUsername/CleanEarth",
+      githubLink: "https://github.com/23f3001886/CleanEarth",
       icon: "🌍"
     },
     {
@@ -127,7 +147,7 @@ export default function ModernPortfolio() {
       tags: ["HTML", "CSS", "JavaScript", "Flask", "SQLAlchemy", "SQLite"],
       liveLink: "https://a-z-household-service-81wk.vercel.app/",
       demoLink: "https://drive.google.com/file/d/1cac6VBTJ5gSdRAxygdlgBI88N5af_104/view?usp=sharing",
-      githubLink: "https://github.com/yourusername/A-Z-Household-Service",
+      githubLink: "https://github.com/NITESHBHARDWAJ001/A-Z-Household-Service",
       icon: "🧰"
     }
   ];
@@ -419,7 +439,7 @@ export default function ModernPortfolio() {
                   </div>
                   <div className="border-l-2 border-purple-200 pl-4">
                     <h4 className="font-medium text-gray-800">Databases</h4>
-                    <p className="text-sm text-gray-600 mt-1">MongoDB, SQLite3</p>
+                    <p className="text-sm text-gray-600 mt-1">MongoDB, SQLite3,PostgreSQL</p>
                   </div>
                 </div>
               </motion.div>
