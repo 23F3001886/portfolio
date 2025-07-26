@@ -123,7 +123,7 @@ export default function ModernPortfolio() {
     {
       title: "EcoFinds – Sustainable Second-Hand Marketplace",
       description: "A sustainable second-hand marketplace built during Odoo Hackathon 2025. It allows users to buy and sell pre-owned items to promote circular consumption and reduce waste with features like authentication, listings, search & filter.",
-      image: "https://images.unsplash.com/photo-1581229876135-99dbf7b53572?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
+      image: "https://plus.unsplash.com/premium_photo-1737073520175-b3303a6e1e76?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tags: ["React.js", "Tailwind CSS", "Flask", "SQLAlchemy", "JWT"],
       liveLink: "https://odoo-hackathon-2025-eco-finds.vercel.app/",
       demoLink: "https://drive.google.com/drive/folders/11MDgqPUCBOPMf827NDmQ22Oy1wyy4OWG?usp=sharing",
