@@ -296,11 +296,12 @@ export default function ModernPortfolio() {
                 <div className="absolute inset-0 bg-gradient-to-br from-indigo-600/10 to-purple-600/10 rounded-3xl p-1">
                   <div className="bg-gradient-to-br from-white to-indigo-50 h-full w-full rounded-2xl overflow-hidden flex items-center justify-center">
                     <div className="relative w-64 h-64">
-                      {/* Profile image container with decorative elements */}
+                      {/* Profile image container with decorative elements  https://res.cloudinary.com/dkhhwbixm/image/upload/v1747916901/WhatsApp_Image_2025-05-22_at_17.09.25_a9fa148f_dptvoj.jpg*/}
                       <div className="absolute w-full h-full rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 p-[3px]">
                         <div className="bg-white w-full h-full rounded-full overflow-hidden">
+                          
                           <img 
-                            src="https://res.cloudinary.com/dkhhwbixm/image/upload/v1747916901/WhatsApp_Image_2025-05-22_at_17.09.25_a9fa148f_dptvoj.jpg" 
+                            src="/WhatsApp Image 2025-05-22 at 17.11.27_a98b48e6.jpg" 
                             alt="Nitesh Sharma" 
                             className="w-full h-full object-cover object-[40%_20%]"
                           />
