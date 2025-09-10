@@ -301,7 +301,7 @@ export default function ModernPortfolio() {
                         <div className="bg-white w-full h-full rounded-full overflow-hidden">
                           
                           <img 
-                            src="/WhatsApp Image 2025-05-22 at 17.11.27_a98b48e6.jpg" 
+                            src="/WhatsApp Image 2025-05-22 at 17.16.12_c12ce29a.jpg" 
                             alt="Nitesh Sharma" 
                             className="w-full h-full object-cover object-[40%_20%]"
                           />
